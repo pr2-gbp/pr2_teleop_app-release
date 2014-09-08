@@ -1,0 +1,12 @@
+Source: ros-hydro-pr2-teleop-app
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-pr2-position-scripts, ros-hydro-topic-tools
+Homepage: http://ros.org/wiki/teleop
+Standards-Version: 3.9.2
+
+Package: ros-hydro-pr2-teleop-app
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-pr2-position-scripts, ros-hydro-topic-tools
+Description: Teleop application for the pr2
